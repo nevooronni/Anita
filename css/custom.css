@@ -1,5 +1,12 @@
 /*this is a custom css stylesheet*/
+@import url("https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet");
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'PT Serif', serif;
+}
+
 p {
+  font-family: 'PT Serif', serif;
   color: #505050;
 }
 
@@ -270,4 +277,9 @@ p {
   margin-top: 80px;
   color: #FFFFFF;
   opacity: 0.80;
+}
+
+.overlay:hover {
+  bottom: 0;
+  height: 100%;
 }
