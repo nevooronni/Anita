@@ -90,6 +90,26 @@
   background-color: #F15B29;
 }
 
+#footerm {
+  margin-top: 60px;
+  margin-left: 660px;
+  margin-bottom: 10px;
+}
+
+#float {
+  float: right;
+  margin-top: 60px;
+  margin-right: 680px;
+}
+
+#left {
+  margin-left: 660px;
+}
+
+.left2 {
+  margin-left: 15px;
+}
+
 .footerc {
   color: #FFFFFF;
 }
