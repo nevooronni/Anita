@@ -43,8 +43,30 @@
   height: 610px;
 }
 
+#customer2 {
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#well2 {
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-opacity: 0.3;
+  height: 380px;
+  margin-left: 160px;
+  width: 1100px;
+}
+
 #well {
-  height: 350px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-opacity: 0.3;
+  margin-left: 160px;
+  width: 1100px;
+
 }
 
 #bcolor {
@@ -60,7 +82,7 @@
 }
 
 #margins {
-  margin-top: 100px;
+  margin-top: 120px;
   color: #FFFFFF;
 }
 
@@ -92,14 +114,14 @@
 
 #footerm {
   margin-top: 60px;
-  margin-left: 660px;
+  margin-left: 680px;
   margin-bottom: 10px;
 }
 
 #float {
   float: right;
   margin-top: 60px;
-  margin-right: 680px;
+  margin-right: 690px;
 }
 
 #footerh {
@@ -114,26 +136,29 @@
 #left3 {
   position: absolute;
   top: 185px;
-  left: 690px;
+  left: 710px;
   color: #F15B29;
 }
 
 #left4 {
   position: absolute;
   top: 185px;
-  left: 746px;
+  left: 766px;
   color: #F15B29;
 }
 
 #left5 {
   position: absolute;
   top: 185px;
-  left: 806px;
+  left: 826px;
   color: #F15B29;
 }
 
+.row {
+  padding-top: ;
+}
 .left {
-  margin-left: 660px;
+  margin-left: 680px;
   position: relative;
 }
 
@@ -142,7 +167,7 @@
 }
 
 .left2 { 
-position: relative; 
+  position: relative; 
   margin-left: 15px;    
 }
 
