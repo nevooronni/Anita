@@ -5,22 +5,81 @@
   height: 600px;
 }
 
+#position {
+  margin-top: 50px;
+  margin-left: 600px;
+ } 
+
+#white {
+  color: white;
+  margin-top: 60px;
+}
+
 #happyb {
-  background-color: ;
+  background-color: #E4E5E7;
 }
 
 #partyb {
   background-color: #F15B29;
+  color: #FFFFFF;
+  opacity: 0.85;
 }
 
-#breakfast {
-  background-image: url("");
+#breakfastb {
+  background-image: url("../img/breakfast.jpg");
 }
 
-#lunch {
-  background-image: url("");
+#lunchb {
+  background-image: url("../img/lunch.jpg");
 }
 
-#dinner {
-  background-image: url("");
+#dinnerb {
+  background-image: url("../img/dinner.jpg");
+}
+
+#customer {
+  background-image: url("../img/foodsBg.jpg");
+  padding-top: 100px;
+  height: 610px;
+}
+
+#well {
+  height: 350px;
+}
+
+#bcolor {
+  border-color: grey;
+  border-width: 3px;
+  border-opacity: 0.50;
+  background-color: transparent;
+}
+
+#subscribe {
+  height: 700px; 
+}
+
+#margins {
+  margin-top: 100px;
+}
+
+#footer {
+  background-color: #F15B29;
+}
+
+.margint {
+  margin-top: 90px;
+}
+
+.height {
+  height: 210px;
+}
+
+.height2 {
+  height: 105px;
+}
+
+.menut {
+  margin-top: 80px;
+  color: #FFFFFF;
+  opacity: 0.80;
 }
