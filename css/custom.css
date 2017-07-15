@@ -111,17 +111,30 @@
   margin-bottom: 20px;
 }
 
-.left {
-  margin-left: 660px;
-  position: relative;
-}
-
 #left3 {
-  margin-top:;
   position: absolute;
   top: 185px;
   left: 690px;
   color: #F15B29;
+}
+
+#left4 {
+  position: absolute;
+  top: 185px;
+  left: 746px;
+  color: #F15B29;
+}
+
+#left5 {
+  position: absolute;
+  top: 185px;
+  left: 806px;
+  color: #F15B29;
+}
+
+.left {
+  margin-left: 660px;
+  position: relative;
 }
 
 .red {
