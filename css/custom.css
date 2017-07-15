@@ -70,10 +70,15 @@
 }
 
 #posr { 
+  position: relative;
+  margin-left: 30px;
 }
 
 #posa {
-
+  position: absolute;
+  top: 2px;
+  left: 750px;
+  right: 30px;
 }
 
 #bcolor {
