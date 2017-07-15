@@ -1,4 +1,7 @@
 /*this is a custom css stylesheet*/
+p {
+  color: #505050;
+}
 
 #backgroundj {
   background-image: url("../img/landing.jpg");
@@ -60,12 +63,12 @@
 }
 
 #well {
+  border : 2px rgba(0,0,0,0.1);
   border-style: solid;
-  border-color: grey;
-  border-width: 2px;
-  border-opacity: 0.1;
   margin-left: 160px;
   width: 1100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 
@@ -76,9 +79,29 @@
 
 #posa {
   position: absolute;
-  top: 2px;
+  top: 33px;
   left: 750px;
   right: 30px;
+}
+
+#side1 {
+  margin-left: 120px;
+}
+
+#side2 {
+  margin-left: 170px;
+}
+
+#side3 {
+  margin-left: 30px;
+}
+
+#side4 {
+  margin-left: 130px;
+}
+
+#side5 {
+  margin-left: 60px;
 }
 
 #bcolor {
@@ -163,6 +186,10 @@
   position: absolute;
   top: 185px;
   left: 826px;
+  color: #F15B29;
+}
+
+.arrow {
   color: #F15B29;
 }
 
