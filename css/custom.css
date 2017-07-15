@@ -1,1 +1,5 @@
 /*this is a custom css stylesheet*/
+
+#backgroundj {
+  background-image: url("../img/landing.jpg");
+}
