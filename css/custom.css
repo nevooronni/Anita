@@ -2,4 +2,25 @@
 
 #backgroundj {
   background-image: url("../img/landing.jpg");
+  height: 600px;
+}
+
+#happyb {
+  background-color: ;
+}
+
+#partyb {
+  background-color: #F15B29;
+}
+
+#breakfast {
+  background-image: url("");
+}
+
+#lunch {
+  background-image: url("");
+}
+
+#dinner {
+  background-image: url("");
 }
