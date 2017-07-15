@@ -149,18 +149,19 @@ p {
 
 #footerm {
   margin-top: 60px;
-  margin-left: 680px;
+  margin-left: 660px;
   margin-bottom: 10px;
 }
 
 #float {
   float: right;
-  margin-top: 60px;
-  margin-right: 690px;
+  margin-right: 680px;
+  margin-top: 65px;
 }
 
 #footerh {
   margin-bottom: 30px;
+  
 }
 
 #footerp {
