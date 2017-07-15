@@ -102,12 +102,35 @@
   margin-right: 680px;
 }
 
-#left {
-  margin-left: 660px;
+#footerh {
+  margin-bottom: 30px;
 }
 
-.left2 {
-  margin-left: 15px;
+#footerp {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.left {
+  margin-left: 660px;
+  position: relative;
+}
+
+#left3 {
+  margin-top:;
+  position: absolute;
+  top: 185px;
+  left: 690px;
+  color: #F15B29;
+}
+
+.red {
+  color: #F15B29;
+}
+
+.left2 { 
+position: relative; 
+  margin-left: 15px;    
 }
 
 .footerc {
