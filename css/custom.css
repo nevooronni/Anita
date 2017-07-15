@@ -55,11 +55,35 @@
 }
 
 #subscribe {
-  height: 700px; 
+  background-image: url("../img/subscribe.jpg");
+  height: 300px; 
 }
 
 #margins {
   margin-top: 100px;
+  color: #FFFFFF;
+}
+
+#email {
+  margin-left: 58px;
+  width: 400px;
+  height: 39px;
+  background-color: #5C5656;
+  border-color: transparent;
+  border-opacity: 0.50;
+  color: #FFFFFF;
+  padding-left: 30px;
+  opacity: 0.80;
+}
+
+#submit {
+  width: 200px;
+  height: 39px;
+  margin-left: 18px;
+  background-color: #F15B29;
+  color: #FFFFFF;
+  font-size: 16px;
+  opacity: 0.80;
 }
 
 #footer {
