@@ -29,6 +29,23 @@
 
       <!--Jumbotron section-->
       <header class="row" id="backgroundj">
+
+      <!--Overlay navigation-->
+
+        <!--the overlay-->
+        <div class="overlay" id="myNav">
+          <!--button to close the overlay navigation-->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!--overlay content-->
+          <div class="overlay-content">
+            <a href="#">CONTACTS</a>
+            <a href="#">EVENTS</a>
+            <a href="#">MENU</a>
+          </div>
+        </div>
+        <!--button to show overlay contents-->
+        <span class="box-shadow-menu" onclick="openNav()"></span>
+
         <div class="col-md-12">
           <nav></nav>
           <img src="img/logoBig.png" alt="anita kitchen logo" id="position"/>
@@ -100,7 +117,7 @@
       <div class="row margint" id="customer">
         <div class="row" id="header">
             <div class="col-md-2" id="navh">
-              <a class="active mgh ac" href="#">Fast Food</a>
+              <a class="mgh ac" href="#section1">Fast Food</a>
             </div>  
             <div class="col-md-2 colorb" id="navh2">   
               <a class="a mgh""href="#">Drinks</a>
@@ -113,7 +130,7 @@
             </div>              
         </div>
     
-        <div class="row">
+        <div class="row" id="section1">
           <div class="col-md-8" id="well2">
             <span>
               <span class="glyphicon glyphicon-menu-left" id="img14"></span>
@@ -152,7 +169,10 @@
               </span>
             </div>
           </div>
-          
+        
+            <p id="posline">|</p>
+           
+
           <div id="posa">
             <h3 class="red" id="side5">About Menu</h3>
             <p>We are menu a litte team of 7 members,<br/> Ut wisi enim ad minim veniam, quis nos<br/> trudexer ci tation ullamcorper suscipit lob<br/> ortis nisl ut aliquip ex ea commodo conse<br/> quat. Duisau tem vel enum iruire dolor in.</p>
@@ -208,7 +228,7 @@
   <!-- Latest compiled and minified JavaScript make sure to put jquery fast because the js is dependant on that-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>  
-  <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   </body>
 
   </html>

@@ -1,11 +1,11 @@
-$("#breakfastb").mouseover(function(){
-    $("#breakfastb").css("background-color", "white");
-});
+//Javascript file
 
-$("#lunchb").mouseover(function(){
-    $("#lunchb").css("background-color", "white");
-});
+/*open*/
+function openNav() {
+	document.getElementById("myNav").style.height = "100%";
+}
 
-$("#dinnerb").mouseover(function(){
-    $("#dinnerb").css("background-color", "white");
-});
+/*close*/
+function closeNav() {
+	document.getElementById("mNav").style.height = "0%";
+}
