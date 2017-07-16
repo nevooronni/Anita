@@ -53,6 +53,17 @@ p {
   height: 610px;
 }
 
+#navh {
+  height: 50px;
+  border: 2px rgba(0,0,0,0.1);
+  border-style: solid; 
+  padding: 10px;
+  margin-left: 165px;
+  margin-bottom: 0;
+  width: 1100px;
+  position: relative;
+}
+
 #customer2 {
     height: 400px;
     padding-top: 100px;
@@ -64,8 +75,9 @@ p {
   border-color: grey;
   border-width: 2px;
   border-opacity: 0.3;
-  height: 380px;
-  margin-left: 160px;
+  height: 345px;
+  margin-top: 0;
+  margin-left: 180px;
   width: 1100px;
 }
 
@@ -224,6 +236,15 @@ p {
   border-width: 1.25px;
   color: #F15B29;
   font-size: 15px;
+}
+
+.width1 {
+  margin-left: 250px;
+  font-size: 18px;
+}
+
+.a {
+  color: grey;
 }
 
 .pbottom {
