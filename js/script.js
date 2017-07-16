@@ -7,5 +7,5 @@ function openNav() {
 
 /*close*/
 function closeNav() {
-	document.getElementById("mNav").style.height = "0%";
+	document.getElementById("myNav").style.height = "0%";
 }

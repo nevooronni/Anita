@@ -78,8 +78,7 @@ box-shadow-menu {
   padding-left: 1.25em;
 }
 
-.box-shadow-menu:before {
-  cursor: pointer;
+/*.box-shadow-menu:before {
   content: "";
   position: absolute;
   left: 160px;
@@ -90,8 +89,15 @@ box-shadow-menu {
   box-shadow: 
     0 1.80em 0 0 #FFFFFF,
     0 0.85em 0 0 #FFFFFF;
-}
+  }*/  
 
+#ham {
+  position: relative;
+  top: 45px;
+  left: 120px;
+  color: #FFFFFF;
+  font-size: 50px;
+}
 
 #backgroundj {
   background-image: url("../img/landing.jpg");
