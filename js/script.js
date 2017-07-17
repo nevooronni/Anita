@@ -1,4 +1,4 @@
-//Javascript file
+//Javascript file\
 
 /*open*/
 function openNav() {
@@ -9,3 +9,4 @@ function openNav() {
 function closeNav() {
 	document.getElementById("myNav").style.height = "0%";
 }
+

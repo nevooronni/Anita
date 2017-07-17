@@ -428,7 +428,7 @@ box-shadow-menu {
 }
 
 #button { 
-  margin-left: 310px; 
+  margin-left: 298px; 
 }
 
 #align1 {
@@ -493,6 +493,18 @@ box-shadow-menu {
   top: -27px;
   left: 410px;
   color: #F15B29;
+}
+
+#arrow {
+  margin-left: 5px;
+  margin-right: -7px;
+  width: 30px;
+  height: 20px;
+  opacity: 0.85;
+}
+
+.btnwidth {
+  width: 380px;
 }
 
 .mmargin {
