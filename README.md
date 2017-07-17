@@ -15,6 +15,12 @@ drinks.
 * javascript
 * BOOSTRAP
 
+## FUNCTIONALITY
+* Overlay humberger button
+* hover effects
+* modal popus
+* subscribe fucntionality
+
 ## CONTACTS
 
 [email:nevooronni@gmail.com](nevooronni@gmail.com)
