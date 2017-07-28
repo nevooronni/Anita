@@ -506,6 +506,33 @@ box-shadow-menu {
   opacity: 0.85;
 }
 
+
+#hiddenSubscribe {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 3125px;
+  left: 200px;
+  font-size: 25px;
+  background-color:  #F15B29;
+  width: 1200px;
+  border-radius: 10px;
+  height: 100px;
+  padding-top: 30px;
+}
+
+#closebtn {
+  position: absolute;
+  top: 2px;
+  left: 1170px;
+  color: #5C5656;
+  cursor: pointer;
+}
+
+#email102 {
+  color: #5C5656;
+}
+
 .btnwidth {
   width: 380px;
 }

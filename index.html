@@ -25,6 +25,14 @@
     <!--js for support for older IE sites(6-8)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
     </script>
+
+     <!--javascript--><!--putting script files down here to make the website appear to be loading faster because js is responsible for fuctionality-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">    
+    </script>
+
+    <!-- Latest compiled and minified JavaScript make sure to put jquery fast because the js is dependant on that-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>  
   </head>
 
   <body>
@@ -232,12 +240,16 @@
           </div>
           <div class="col-md-6">
             <h2 class="text-center" id="margins">Get our daily food items delivered to your email</h2>
-            <form method=" get" action="#">
+            <form>
               <input type="text" value="Your email" Id="email">
               <input type="submit" value="Subscribe"  class="btn" id="submit">
             </form>
           </div>
           <div class="col-md-3">
+          </div>
+          <div class="col-md-12" id="hiddenSubscribe">
+            <p class="footerc">You have succesfully been subscribed check your email for the acivation link <span id="email102"></span>.</p>
+            <span id="closebtn">&times;</span>
           </div>     
       </div>
 
@@ -268,13 +280,6 @@
         </div>
       </footer>
     </div>
-  <!--javascript--><!--putting script files down here to make the website appear to be loading faster because js is responsible for fuctionality-->
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">    
-  </script>
-
-  <!-- Latest compiled and minified JavaScript make sure to put jquery fast because the js is dependant on that-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-  </script>  
 
   <!--custom javasctript file-->
   <script type="text/javascript" src="js/script.js"></script>
