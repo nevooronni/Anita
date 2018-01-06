@@ -400,13 +400,16 @@ box-shadow-menu {
 }
 
 #footerh {
-  margin-bottom: 30px;
-  
+  margin-bottom: 0px;
+  position: relative;
+  top: -40px;
+  left: 460px;
 }
 
 #footerp {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 #left3 {
@@ -591,6 +594,7 @@ box-shadow-menu {
   padding-top: ;
 }
 .left {
+  margin-top: -80px;
   margin-left: 665px;
   position: relative;
 }
@@ -601,11 +605,15 @@ box-shadow-menu {
 
 .left2 { 
   position: relative; 
+  margin-top: -80px;
   margin-left: 15px;    
 }
 
 .footerc {
   color: #FFFFFF;
+  position: relative;
+  top: -50px;
+  right: 15px;
 }
 
 .margint {
