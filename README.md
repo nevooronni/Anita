@@ -9,6 +9,10 @@ information needed by the customer to commit to it's products/services.
 At it's core is the menu that displays all it has to offer in terms of foods and
 drinks.
 
+## INSTALLATION AND USE 
+* Clone repository on your local machine
+* open index file with your brower
+
 ## TECHNOLOGIES ADDED
 * HTML file
 * CSS flie

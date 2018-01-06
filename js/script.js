@@ -1,6 +1,6 @@
 //Javascript/jquery file
 
-//js frontend
+//js backend
 //open
 function openNav() {
 	document.getElementById("myNav").style.height = "100%";
@@ -11,9 +11,9 @@ function closeNav() {
 	document.getElementById("myNav").style.height = "0%";
 }
 
-//jquery backend
+//jquery front end
 $(document).ready(function() {
-	$("input#submit").click(function() {
+	$("input#submit").click(function(event) {
     
     //takes the input of the form and turns into to a string
 		var input = $("input#email").val();
@@ -28,6 +28,7 @@ $(document).ready(function() {
 	  $("span#closebtn").click(function() {
 	  	$("div#hiddenSubscribe").hide();
 	  });
+	  event.preventDefault();
 	}) ;
 			
 });
