@@ -390,7 +390,7 @@ box-shadow-menu {
 #footerm {
   margin-top: 60px;
   margin-left: 660px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #float {
@@ -402,8 +402,8 @@ box-shadow-menu {
 #footerh {
   margin-bottom: 0px;
   position: relative;
-  top: -40px;
-  left: 460px;
+  top: -69px;
+  left: 60px;
 }
 
 #footerp {
@@ -414,21 +414,21 @@ box-shadow-menu {
 
 #left3 {
   position: absolute;
-  top: 185px;
+  top: 128px;
   left: 695px;
   color: #F15B29;
 }
 
 #left4 {
   position: absolute;
-  top: 185px;
+  top: 128px;
   left: 752px;
   color: #F15B29;
 }
 
 #left5 {
   position: absolute;
-  top: 185px;
+  top: 128px;
   left: 811px;
   color: #F15B29;
 }
