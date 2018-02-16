@@ -521,7 +521,8 @@ box-shadow-menu {
   width: 1200px;
   border-radius: 10px;
   height: 100px;
-  padding-top: 30px;
+  padding-top: 80px;
+  padding-left: 25px;
 }
 
 #closebtn {
@@ -614,6 +615,7 @@ box-shadow-menu {
   position: relative;
   top: -50px;
   right: 15px;
+  margin-bottom: 0px;
 }
 
 .margint {
